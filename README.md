@@ -9,7 +9,8 @@
 cd plugins/miao-plugin/resources/profile/normal-character
 git init
 git remote add origin https://github.com/AxiuCN/miao-plugin-ProfileImg.git
-git pull origin main --allow-unrelated-histories
+git fetch origin main
+git reset --hard origin/main
 ```
 ## 免责声明
 * **请勿将此模板图库用于任何以盈利为目的的场景.** 
