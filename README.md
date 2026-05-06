@@ -25,7 +25,7 @@ curl -o plugins/example/面板图图库管理器.js "https://raw.githubuserconte
 
 下载失败可尝试：JsDelivr CDN：
 ```bash
-curl -o plugins/example/面板图图库管理器.js "https://cdn.jsdelivr.net/AxiuCN/Yunzai_JS_Plugins/main/面板图图库管理器.js"
+curl -o plugins/example/面板图图库管理器.js "https://cdn.jsdelivr.net/gh/AxiuCN/Yunzai_JS_Plugins/main/面板图图库管理器.js"
 ```
 
 ## 免责声明
