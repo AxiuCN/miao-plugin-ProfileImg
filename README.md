@@ -17,10 +17,15 @@ git reset --hard origin/main
 用于管理本图库的单文件插件，支持查看状态、自动/手动更新等功能
 
 ### 安装
-在 Yunzai 根目录下执行以下命令：
 
+在 Yunzai 根目录下执行以下命令：
 ```bash
 curl -o plugins/example/面板图图库管理器.js "https://raw.githubusercontent.com/AxiuCN/Yunzai_JS_Plugins/main/面板图图库管理器.js"
+```
+
+下载失败可尝试：JsDelivr CDN：
+```bash
+curl -o plugins/example/面板图图库管理器.js "https://cdn.jsdelivr.net/AxiuCN/Yunzai_JS_Plugins/main/面板图图库管理器.js"
 ```
 
 ## 免责声明
