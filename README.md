@@ -20,12 +20,12 @@ git reset --hard origin/main
 
 在 Yunzai 根目录下执行以下命令：
 ```bash
-curl -o plugins/example/面板图图库管理器.js "https://raw.githubusercontent.com/AxiuCN/Yunzai_JS_Plugins/main/面板图图库管理器.js"
+curl -o plugins/example/面板图图库管理器.js "https://raw.githubusercontent.com/AxiuCN/Yunzai_JS_Plugins@main/%E9%9D%A2%E6%9D%BF%E5%9B%BE%E5%9B%BE%E5%BA%93%E7%AE%A1%E7%90%86%E5%99%A8.js"
 ```
 
 下载失败可尝试：JsDelivr CDN：
 ```bash
-curl -o plugins/example/面板图图库管理器.js "https://cdn.jsdelivr.net/gh/AxiuCN/Yunzai_JS_Plugins/main/面板图图库管理器.js"
+curl -o plugins/example/面板图图库管理器.js "https://cdn.jsdelivr.net/gh/AxiuCN/Yunzai_JS_Plugins@main/%E9%9D%A2%E6%9D%BF%E5%9B%BE%E5%9B%BE%E5%BA%93%E7%AE%A1%E7%90%86%E5%99%A8.js"
 ```
 
 ## 免责声明
