@@ -4,9 +4,12 @@
 ## 安装方式
 
 > 在Yunzai根目录执行命令安装
-Github
 ``` bash 
-git clone https://github.com/AxiuCN/miao-plugin-ProfileImg ./plugins/miao-plugin/resources/profile/normal-character
+//使用Github
+cd plugins/miao-plugin/resources/profile/normal-character
+git init
+git remote add origin https://github.com/AxiuCN/miao-plugin-ProfileImg.git
+git pull origin main --allow-unrelated-histories
 ```
 ## 免责声明
 * **请勿将此模板图库用于任何以盈利为目的的场景.** 
