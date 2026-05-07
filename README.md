@@ -9,7 +9,7 @@
 cd plugins/miao-plugin/resources/profile
 git init
 git remote add origin https://github.com/AxiuCN/miao-plugin-ProfileImg.git
-git fetch origin main
+git fetch origin main --depth 1
 git reset --hard origin/main
 ```
 
