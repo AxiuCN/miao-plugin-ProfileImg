@@ -28,6 +28,9 @@ curl -o plugins/example/面板图图库管理器.js "https://raw.githubuserconte
 curl -o plugins/example/面板图图库管理器.js "https://cdn.jsdelivr.net/gh/AxiuCN/Yunzai_JS_Plugins@main/%E9%9D%A2%E6%9D%BF%E5%9B%BE%E5%9B%BE%E5%BA%93%E7%AE%A1%E7%90%86%E5%99%A8.js"
 ```
 
+## 已退休的老面板图
+正在构建仓库...
+
 ## 免责声明
 * **请勿将此模板图库用于任何以盈利为目的的场景.** 
 * **图片与其他素材均来自于网络，图片资源严禁用于任何商业用途。如有侵权请联系删除**
