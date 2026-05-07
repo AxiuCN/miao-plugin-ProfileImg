@@ -6,7 +6,7 @@
 > 在Yunzai根目录执行命令安装
 ```bash 
 //使用Github
-cd plugins/miao-plugin/resources/profile/normal-character
+cd plugins/miao-plugin/resources/profile
 git init
 git remote add origin https://github.com/AxiuCN/miao-plugin-ProfileImg.git
 git fetch origin main
