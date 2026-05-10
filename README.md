@@ -2,13 +2,22 @@
 这个图库是 Yunzai 框架下的 miao-plugin 面板图资源，涵盖了**原神&星铁**的面板图资源
 
 ## 安装方式
+在Yunzai根目录执行命令安装（二选一）
 
-> 在Yunzai根目录执行命令安装
+> Github
 ```bash 
-//使用Github
 cd plugins/miao-plugin/resources/profile
 git init
 git remote add origin https://github.com/AxiuCN/miao-plugin-ProfileImg.git
+git fetch origin main --depth 1
+git reset --hard origin/main
+```
+
+> Gitee
+```bash 
+cd plugins/miao-plugin/resources/profile
+git init
+git remote add origin https://gitee.com/AxiuCN/miao-plugin-ProfileImg.git
 git fetch origin main --depth 1
 git reset --hard origin/main
 ```
@@ -28,8 +37,9 @@ curl -o plugins/example/面板图图库管理器.js "https://raw.githubuserconte
 curl -o plugins/example/面板图图库管理器.js "https://cdn.jsdelivr.net/gh/AxiuCN/Yunzai_JS_Plugins@main/%E9%9D%A2%E6%9D%BF%E5%9B%BE%E5%9B%BE%E5%BA%93%E7%AE%A1%E7%90%86%E5%99%A8.js"
 ```
 
-## 已退休的老面板图
-正在构建仓库...
+## 屏蔽仓库
+储存暂时被主图库屏蔽的 miao-plugin 面板图资源
+https://github.com/AxiuCN/miao-plugin-ProfileImg-Blocked/
 
 ## 免责声明
 * **请勿将此模板图库用于任何以盈利为目的的场景.** 
