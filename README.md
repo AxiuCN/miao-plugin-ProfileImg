@@ -7,7 +7,7 @@
 > Github
 ```bash 
 cd plugins/miao-plugin/resources/profile
-git init
+git init --initial-branch=main
 git remote add origin https://github.com/AxiuCN/miao-plugin-ProfileImg.git
 git fetch origin main --depth 1
 git reset --hard origin/main
@@ -16,7 +16,7 @@ git reset --hard origin/main
 > Gitee
 ```bash 
 cd plugins/miao-plugin/resources/profile
-git init
+git init --initial-branch=main
 git remote add origin https://gitee.com/AxiuCN/miao-plugin-ProfileImg.git
 git fetch origin main --depth 1
 git reset --hard origin/main
