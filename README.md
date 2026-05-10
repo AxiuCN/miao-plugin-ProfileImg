@@ -38,7 +38,7 @@ curl -o plugins/example/面板图图库管理器.js "https://cdn.jsdelivr.net/gh
 ```
 
 ## 屏蔽仓库
-储存暂时被主图库屏蔽的 miao-plugin 面板图资源
+储存暂时被主图库屏蔽的 miao-plugin 面板图资源  
 https://github.com/AxiuCN/miao-plugin-ProfileImg-Blocked/
 
 ## 免责声明
