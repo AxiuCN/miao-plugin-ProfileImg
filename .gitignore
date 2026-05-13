@@ -1,5 +1,2 @@
 # 忽略 Windows 缩略图缓存
 Thumbs.db
-
-# 忽略屏蔽图库
-blocked-character/
