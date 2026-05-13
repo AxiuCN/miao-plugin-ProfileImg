@@ -1,0 +1,3 @@
+[submodule "blocked-character"]
+	path = blocked-character
+	url = https://github.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git

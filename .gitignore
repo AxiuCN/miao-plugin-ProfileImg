@@ -1,8 +1,5 @@
-# 忽略图库配置
-/*
+# 忽略 Windows 缩略图缓存
+Thumbs.db
 
-# 追踪主图库 
-!/normal-character
-!/.gitignore
-!/LICENSE
-!/README.md
+# 忽略屏蔽图库
+blocked-character/

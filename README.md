@@ -22,6 +22,12 @@ git fetch origin main --depth 1
 git reset --hard origin/main
 ```
 
+如果要安装屏蔽仓库，在 `profile` 目录下继续执行
+> Github
+```bash
+git submodule add https://github.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git blocked-character
+```
+
 ## 面板图图库管理器
 用于管理本图库的单文件插件，支持查看状态、自动/手动更新等功能
 
@@ -29,7 +35,7 @@ git reset --hard origin/main
 
 在 Yunzai 根目录下执行以下命令：
 ```bash
-curl -o plugins/example/面板图图库管理器.js "https://raw.githubusercontent.com/AxiuCN/Yunzai_JS_Plugins@main/%E9%9D%A2%E6%9D%BF%E5%9B%BE%E5%9B%BE%E5%BA%93%E7%AE%A1%E7%90%86%E5%99%A8.js"
+curl -o plugins/example/面板图图库管理器.js "https://raw.githubusercontent.com/AxiuCN/Yunzai_JS_Plugins/main/%E9%9D%A2%E6%9D%BF%E5%9B%BE%E5%9B%BE%E5%BA%93%E7%AE%A1%E7%90%86%E5%99%A8.js"
 ```
 
 下载失败可尝试：JsDelivr CDN：
