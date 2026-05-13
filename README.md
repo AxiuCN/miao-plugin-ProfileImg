@@ -2,7 +2,8 @@
 这个图库是 Yunzai 框架下的 miao-plugin 面板图资源，涵盖了**原神&星铁**的面板图资源
 
 ## 安装方式
-在Yunzai根目录执行命令安装（二选一）
+建议使用**面板图图库管理器**安装管理。  
+在 Yunzai 根目录执行命令安装（二选一）
 
 > Github
 ```bash 
@@ -35,18 +36,20 @@ git submodule add https://gitee.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git bl
 ```
 
 ## 面板图图库管理器
-用于管理本图库的单文件插件，支持查看状态、自动/手动更新等功能
+一个用于管理喵喵插件角色面板图库（主图库/屏蔽图库）的面板图图库管理器，支持状态查看、更新、安装、屏蔽/启用面板图等功能  
+https://github.com/AxiuCN/ProfileImg-Plugin/
 
 ### 安装
+在 Yunzai 根目录执行命令安装
 
-在 Yunzai 根目录下执行以下命令：
-```bash
-curl -o plugins/example/面板图图库管理器.js "https://raw.githubusercontent.com/AxiuCN/Yunzai_JS_Plugins/main/%E9%9D%A2%E6%9D%BF%E5%9B%BE%E5%9B%BE%E5%BA%93%E7%AE%A1%E7%90%86%E5%99%A8.js"
+> Github
+```bash 
+git clone --depth=1 https://github.com/AxiuCN/ProfileImg-Plugin ./plugins/ProfileImg-Plugin/
 ```
 
-下载失败可尝试：JsDelivr CDN：
-```bash
-curl -o plugins/example/面板图图库管理器.js "https://cdn.jsdelivr.net/gh/AxiuCN/Yunzai_JS_Plugins@main/%E9%9D%A2%E6%9D%BF%E5%9B%BE%E5%9B%BE%E5%BA%93%E7%AE%A1%E7%90%86%E5%99%A8.js"
+> Gitee
+```bash 
+git clone --depth=1 https://gitee.com/AxiuCN/ProfileImg-Plugin ./plugins/ProfileImg-Plugin/
 ```
 
 ## 屏蔽仓库
