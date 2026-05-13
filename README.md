@@ -23,7 +23,7 @@ git reset --hard origin/main
 ```
 
 
-如果要安装屏蔽仓库，在 `profile` 目录下继续执行
+如果要安装屏蔽仓库，在 `profile` 目录下继续执行（二选一）
 > Github
 ```bash
 git submodule add https://github.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git blocked-character
