@@ -3,3 +3,6 @@
 
 # 追踪主图库 
 !/normal-character
+!/.gitignore
+!/LICENSE
+!/README.md
