@@ -1,9 +1,5 @@
-# 忽略 Windows 缩略图缓存
-Thumbs.db
+# 忽略图库配置
+/*
 
-# 忽略屏蔽图库
-normal-character/.git
-normal-character/.gitignore
-normal-character/LICENSE
-normal-character/README.md
-normal-character/*/屏蔽/
+# 追踪主图库 
+!/normal-character
