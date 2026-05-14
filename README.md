@@ -27,12 +27,14 @@ git reset --hard origin/main
 如果要安装屏蔽仓库，在 `profile` 目录下继续执行（二选一）
 > Github
 ```bash
-git submodule add https://github.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git blocked-character
+cd plugins/miao-plugin/resources/profile
+git clone --depth 1 https://github.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git blocked-character
 ```
 
 > Gitee
 ```bash
-git submodule add https://gitee.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git blocked-character
+cd plugins/miao-plugin/resources/profile
+git clone --depth 1 https://gitee.com/AxiuCN/miao-plugin-ProfileImg-Blocked.git blocked-character
 ```
 
 ## 面板图图库管理器
