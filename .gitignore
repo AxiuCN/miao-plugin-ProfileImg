@@ -3,3 +3,9 @@ Thumbs.db
 
 # 忽略 blocked-character 屏蔽图库路径
 blocked-character/
+
+# 忽略 第三方图库
+*第三方图库*
+
+# 忽略 本地默认图库
+*本地默认图库*
